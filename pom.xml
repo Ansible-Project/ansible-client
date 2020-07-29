@@ -19,16 +19,20 @@
 	</licenses>
 
 	<developers>
-		<developer>
+		<!-- <developer>
 			<name>James WU</name>
 			<email>woostju@163.com</email>
+		</developer> -->
+		<developer>
+			<name>Pratik Raj</name>
+			<email>rajpratik71@gmail.com</email>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git@github.com:woostju/ansible-client.git</connection>
-		<developerConnection>scm:git@github.com:woostju/ansible-client.git</developerConnection>
-		<url>https://github.com/woostju/ansible-client.git</url>
+		<connection>scm:git@github.com:Ansible-Project/ansible-client.git</connection>
+		<developerConnection>scm:git@github.com:Ansible-Project/ansible-client.git</developerConnection>
+		<url>https://github.com/Ansible-Project/ansible-client.git</url>
 	</scm>
 
 
@@ -99,7 +103,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>1.5</version>
@@ -112,7 +116,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 		<resources>
 			<resource>
